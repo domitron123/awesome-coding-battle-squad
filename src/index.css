@@ -1,0 +1,40 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 60%;
+    height: 50%;
+    border: 5px solid black;
+    border-radius: 30px;
+    background-color: rgb(63, 91, 231);
+
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-content: center;
+
+    align-items: center;
+}
+.text{
+    padding: 5rem;
+    width: 75%;
+}
+.image{
+    display: flex;
+
+    width: 50%;
+    height: 90%;
+}
+.image img{
+    border : 5px solid black;
+    border-radius: 2rem;
+    border-color: white;
+}
